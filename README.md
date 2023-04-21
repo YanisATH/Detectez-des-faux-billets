@@ -5,7 +5,7 @@ méthodes d’identification des contrefaçons des billets en euros. Dans le
 cadre de cette lutte, nous souhaitons mettre en place un algorithme qui
 soit capable de différencier automatiquement les vrais des faux billets.
 
-Objectifs
+# Objectifs
 Lorsqu’un billet arrive, nous avons une machine qui consigne l’ensemble
 de ses caractéristiques géométriques. Au travers de nos années de lutte,
 nous avons observé des différences de dimensions entre les vrais et les
@@ -14,7 +14,8 @@ machine devrait sans problème arriver à les différencier.
 Ainsi, il faudrait construire un algorithme qui, à partir des caractéristiques
 géométriques d’un billet, serait capable de définir si ce dernier est un vrai
 ou un faux billet.
-Modèle de données
+
+# Modèle de données
 Dimensions géométriques
 Nous disposons actuellement de six informations géométriques sur un
 billet :
